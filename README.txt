@@ -1,46 +1,44 @@
+# Moderately Enough Effect Descriptions
+<h2 style="text-align: center;"><span style="font-size: 24px;"><strong>📖 About&nbsp;📖</strong></span></h2><h4 style="text-align: center;">**INSPIRED BY <span style="color: #236fa1;"> <a style="color: #236fa1;" href="https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed" rel="nofollow">JUST ENOUGH EFFECT DESCRIPTIONS (JEED)</a></span>**</h4>
 
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+####
+Moderately Enough Effect Descriptions (MEED) is a JEED/EMIffect addon that provides support for many different mods! You'll be able to discover and learn about 500+ status effects for 100+ mods and counting!
 
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
 
-Setup Process:
-==============================
+#### Just like JEED, you'll be able to view information regarding status effects such as its description, which mod it's from, its effect color, and what items apply/cause the effect in either JEI, REI, or EMI!
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
 
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `./gradlew genEclipseRuns`
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
 
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `./gradlew genIntellijRuns`
-4. Refresh the Gradle Project in IDEA if required.
+#### This mod is constantly adding support for new mods and will try and update to the most popular Minecraft versions as soon as possible!
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-(this does not affect your code) and then start the process again.
+ ![Showcase](https://media.forgecdn.net/attachments/790/503/638409486810559684.png)
 
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
 
-Additional Resources: 
-=========================
-Community Documentation: https://docs.minecraftforge.net/en/1.20.1/gettingstarted/
-LexManos' Install Video: https://youtu.be/8VEdtQLuLO0
-Forge Forums: https://forums.minecraftforge.net/
-Forge Discord: https://discord.minecraftforge.net/
+
+<details><summary><h3><span style="font-size: 30px;"><strong>Currently Supported Mods:</strong></span></h3></summary><h4><span style="font-size: 18px;"><strong>Required:</strong></span></h4><details><h5>Choose one:</h5><p><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed" rel="nofollow">JEED<br></a></p><p><span style="font-size: 14px;"><a href="https://www.curseforge.com/minecraft/mc-mods/emiffect-status-effects-emi-plugin">EMIffect</a></span></p><h5><span style="font-size: 14px;">Choose one:</span></h5><p><a href="https://www.curseforge.com/minecraft/mc-mods/jei" rel="nofollow">JEI</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items" rel="nofollow">REI</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/emi" rel="nofollow">EMI</a></p><h5>For Fabric mods:</h5><p><a href="https://www.curseforge.com/minecraft/mc-mods/sinytra-connector" rel="nofollow">Sinytra Connector</a></p></details><h4><span style="font-size: 18px;"><strong>Optional Supported Mods:</strong></span></h4><h4><strong>A-C</strong></h4><details><p><a href="https://www.curseforge.com/minecraft/mc-mods/aether" rel="nofollow">The Aether</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/aether-redux" rel="nofollow">- (The Aether: Redux)</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/deep-aether" rel="nofollow">- (Deep Aether)</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/alexs-caves" rel="nofollow">Alex's Caves</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/alshanexs-familiars" rel="nofollow">Alshanex's Familiars</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/ars-nouveau" rel="nofollow">Ars Nouveau</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/ars-additions" rel="nofollow">- (Ars Additions)</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/ars-elemental" rel="nofollow">- (Ars Elemental)</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/lets-do-bakery" rel="nofollow">Bakery (Legacy)</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/betterend" rel="nofollow">Better End (FABRIC)</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/biomancy" rel="nofollow">Biomancy</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/biome-makeover-forge" rel="nofollow">Biome Makeover</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/blood-and-madness" rel="nofollow">Blood and Madness</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/blood-magic" rel="nofollow">Blood Magic</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/tome-of-blood-rebirth" rel="nofollow">- (Tome of Blood: Rebirth)</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/blue-skies" rel="nofollow">Blue Skies</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/born-in-chaos" rel="nofollow">Born in Chaos</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/bossesrise">Bosses'Rise</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/brewery-farm-charm-compat" rel="nofollow">Brewery (Farm&amp;Charm Compat)</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/lets-do-brewery" rel="nofollow">- (Legacy: Brewery)</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/cas-extra-potions" rel="nofollow">CAS' Extra Potions</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/casualness-delight" rel="nofollow">Casualness Delight</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/caupona" rel="nofollow">Caupona</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/cofh-core" rel="nofollow">CoFH Core</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/cold-sweat" rel="nofollow">Cold Sweat</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/corail-tombstone" rel="nofollow">Corail Tombstone</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/create-bitterballen" rel="nofollow">Create: Bitterballen</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/cyclic" rel="nofollow">Cyclic</a></p></details><h4><strong>D-L</strong></h4><details><p><a href="https://www.curseforge.com/minecraft/mc-mods/dark-waters" rel="nofollow">Dark Waters</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/daves-potioneering" rel="nofollow">Dave’s Potioneering</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/deeperdarker" rel="nofollow">Deeper and Darker</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/deep-blood" rel="nofollow">Deep Blood</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/divine-weaponry" rel="nofollow">Divine Weaponry - Better Combat</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/enders-delight" rel="nofollow">Ender's Delight</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/ender-zoology" rel="nofollow">Ender Zoology</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/enigmatic-legacy" rel="nofollow">Enigmatic Legacy</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/enlightend" rel="nofollow">Enlightend</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/epic-fight-mod" rel="nofollow">Epic Fight</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/epic-knights-armor-and-weapons" rel="nofollow">Epic Knights</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/evilcraft" rel="nofollow">EvilCraft</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/feathers" rel="nofollow">Feathers</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/festive-delight" rel="nofollow">Festive Delight</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/feywild" rel="nofollow">Feywild</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/fungal-infection-spore" rel="nofollow">Fungal Infection: Spore</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/gag">Gadgets Against Grind</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/galosphere" rel="nofollow">Galosphere</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/habitat" rel="nofollow">Habitat</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/hearth-and-harvest">Hearth and Harvest</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/lets-do-herbal-brews" rel="nofollow">Herbal Brews</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/illage-and-spillage-finally-ported">Illage and Spillage: Respillaged</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/jadens-nether-expansion" rel="nofollow">Jaden's Nether Expansion</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/l_ender-s-cataclysm" rel="nofollow">L_Ender 's Cataclysm</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/legendary-monsters">Legendary Monsters</a></p></details><h4><strong>M-S</strong></h4><details><p><a href="https://www.curseforge.com/minecraft/mc-mods/mahou-tsukai" rel="nofollow">Mahou Tsukai</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/mariums-soulslike-weaponry" rel="nofollow">Marium's Soulslike Weaponry</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/monobank" rel="nofollow">Monobank</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/mutant-monsters" rel="nofollow">Mutant Monsters</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/my-nethers-delight" rel="nofollow">My Nether's Delight</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/mystic-potions" rel="nofollow">Mystic Potions</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/natures-aura" rel="nofollow">Nature's Aura</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/nethers-exoticism" rel="nofollow">Nether's Exoticism</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/nethers-overhaul" rel="nofollow">Nether's Overhaul</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/nutritional-balance" rel="nofollow">Nutritional Balance</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/occultism" rel="nofollow">Occultism</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/phantasmic" rel="nofollow">Phantasmic (AKA Netherific)</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/potionsmaster" rel="nofollow">Potions Master</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/projectile-damage-attribute" rel="nofollow">Projectile Damage Attribute</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/quark" rel="nofollow">Quark</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/relics-mod" rel="nofollow">Relics</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/roundabout-the-jojo-mod">Roundabout: The JoJo Mod</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/sculk-horde" rel="nofollow">Sculk Horde</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/sculky-bits" rel="nofollow">SculkyBits</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/seasonals" rel="nofollow">Seasonals</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/simply-swords/" rel="nofollow">Simply Swords</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/sons-of-sins" rel="nofollow">Sons of Sins</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/mobs-of-sins-alexs-mobs-integration-forge" rel="nofollow">- (Mobs of Sins)</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/stalwart-dungeons" rel="nofollow">Stalwart Dungeons</a></p></details><h4><strong>T-Z</strong></h4><details><p><a href="https://www.curseforge.com/minecraft/mc-mods/terramity">Terramity</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/tinkers-construct" rel="nofollow">Tinkers Construct</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/too-many-bows" rel="nofollow">Too Many Bows</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/tough-as-nails" rel="nofollow">Tough as Nails</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/trials-chambers-backport">Trials Chambers [1.20.1 Backport]</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/unusual-prehistory-forge" rel="nofollow">Unusual Prehistory</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/marvelous-menagerie" rel="nofollow">- (Marvelous Menagerie)</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/vampirism-become-a-vampire" rel="nofollow">Vampirism</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/werewolves-become-a-beast" rel="nofollow">- (Werewolves - Become a Beast!)</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/vanilla-degus" rel="nofollow">Vanilla Degus</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/vinery" rel="nofollow">Vinery</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/lets-do-nethervinery" rel="nofollow">- (Nether Vinery)</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/wandering-bags" rel="nofollow">Wandering Bags</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/wans-ancient-beasts">Wan's Ancient Beasts</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap" rel="nofollow">Xaero's Minimap</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/xtra-arrows" rel="nofollow">Xtra Arrows</a></p><p><a href="https://www.curseforge.com/minecraft/mc-mods/ydms-scorpions" rel="nofollow">YDM's Scorpions</a></p></details></details>
+
+ 
+
+**![](https://i.imgur.com/yXOxl9R.png)**
+
+<h2 style="text-align: center;">🧪 Customization🧪</h2>
+
+#### This mod obviously does not have support for all mods! If you'd like, you can easily change or add effect descriptions by adding/changing the string "effect.\[mod\_id\].\[effect\_name\].description" in the lang file. I'd really appreciate it if you pull requested descriptions you add so that I could add them to the mod! For a more in-depth tutorial on customization, see the [JEED CurseForge page](https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed).
+
+
+#### Feel free to use this in your modpack!
+
+
+#### Also feel free to make any pull requests you think the mod should have, as well as leave any bugs you find in the issues section!
+
+  
+
+###### <span style="font-size: 18px;"><strong>Join the Community!</strong></span>
+
+<span style="color: #36f;"><a style="color: #36f;" href="https://discord.gg/VqjVR3V6ZR" rel="nofollow">https://discord.gg/VqjVR3V6ZR</a></span>
+
+[![](https://i.imgur.com/ffB1D9e.png)](https://discord.gg/VqjVR3V6ZR)
+
+ 
+
+[![Brand Assets](https://cdn.prod.website-files.com/5c14e387dab576fe667689cf/670f5a0171bfb928b21a7e00_support_me_on_kofi_beige.png)](https://ko-fi.com/neoncranberries "Ko-fi") 
