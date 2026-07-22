@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bloodandmadness"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "bloodandmadness:chikage", 
+  "providers": [
+    {
+      "item": "bloodandmadness:weapons/chikage"
+    }
+  ]
+}

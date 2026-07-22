@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enigmaticlegacy"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "enigmaticlegacy:blazing_strength",
+  "providers": [
+    {
+      "item": "enigmaticlegacy:infernal_shield"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "roundabout"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "roundabout:melting",
+  "providers": [
+    {
+      "item": "roundabout:ratt_disc"
+    },
+    {
+      "item": "roundabout:max_ratt_disc"
+    }
+  ]
+}

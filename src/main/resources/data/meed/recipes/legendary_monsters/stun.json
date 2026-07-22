@@ -1,0 +1,21 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "legendary_monsters"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "legendary_monsters:stun",
+  "providers": [
+    {
+      "item": "legendary_monsters:posessed_paladin_spawn_egg"
+    },
+    {
+      "item": "legendary_monsters:ancient_guardian_spawn_egg"
+    },
+    {
+      "item": "legendary_monsters:monstrous_anchor"
+    }
+  ]
+}

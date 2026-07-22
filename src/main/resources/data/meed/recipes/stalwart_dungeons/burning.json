@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "stalwart_dungeons"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "stalwart_dungeons:burning", 
+  "providers": [
+    {
+      "item": "stalwart_dungeons:igniter"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "alexscaves:bubbled",
+  "providers": [
+    {
+      "item": "alexscaves:spawn_egg_deep_one_mage"
+    }
+  ]
+}

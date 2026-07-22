@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "unusualprehistory"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "unusualprehistory:health_reduction", 
+  "providers": [
+    {
+      "item": "unusualprehistory:megalania_spawn_egg"
+    }
+  ]
+}

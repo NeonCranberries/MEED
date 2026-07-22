@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "biomancy"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "biomancy:essence_anemia",
+  "providers": [
+    {
+      "item": "biomancy:extractor"
+    }
+  ]
+}

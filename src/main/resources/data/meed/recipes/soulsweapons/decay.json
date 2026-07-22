@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "soulsweapons"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "soulsweapons:decay",
+  "providers": [
+    {
+      "item": "soulsweapons:withered_grass_block"
+    },
+    {
+      "item": "soulsweapons:withered_dirt"
+    }
+  ]
+}

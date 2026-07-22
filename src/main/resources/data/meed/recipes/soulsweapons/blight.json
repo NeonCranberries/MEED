@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "soulsweapons"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "soulsweapons:blight",
+  "providers": [
+    {
+      "item": "soulsweapons:nights_edge_item"
+    }
+  ]
+}

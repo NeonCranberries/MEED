@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "stalwart_dungeons"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "stalwart_dungeons:spore", 
+  "providers": [
+    {
+      "item": "stalwart_dungeons:spore_vaporizer"
+    },
+    {
+      "item": "stalwart_dungeons:spore_bottle"
+    }
+  ]
+}

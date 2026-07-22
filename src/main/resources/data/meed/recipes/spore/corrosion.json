@@ -1,0 +1,42 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spore"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "spore:corrosion",
+  "providers": [
+    {
+      "item": "spore:spitter_spawnegg"
+    },
+    {
+      "item": "spore:biobloob_spawnegg"
+    },
+    {
+      "item": "spore:usurper_spawnegg"
+    },
+    {
+      "item": "spore:howitzer_spawnegg"
+    },
+    {
+      "item": "spore:hohlfresser_spawnegg"
+    },
+    {
+      "item": "spore:hinden_spawnegg"
+    },
+    {
+      "item": "spore:sicken_tumor"
+    },
+    {
+      "item": "spore:corrosive_reagent"
+    },
+    {
+      "item": "spore:acid"
+    },
+    {
+      "item": "spore:rapier"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "biomancy"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "biomancy:bleed",
+  "providers": [
+    {
+      "item": "biomancy:ravenous_claws"
+    }
+  ]
+}

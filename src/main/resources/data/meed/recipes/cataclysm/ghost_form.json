@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cataclysm"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "cataclysm:ghost_form",
+  "providers": [
+    {
+      "item": "cataclysm:cursium_chestplate"
+    }
+  ]
+}

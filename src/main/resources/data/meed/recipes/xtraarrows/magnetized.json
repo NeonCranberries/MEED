@@ -1,0 +1,27 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "xtraarrows"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "xtraarrows:magnetized",
+  "providers": [
+    {
+      "item": "xtraarrows:flint_magnetic_arrow"
+    },
+    {
+      "item": "xtraarrows:iron_magnetic_arrow"
+    },
+    {
+      "item": "xtraarrows:diamond_magnetic_arrow"
+    },
+    {
+      "item": "xtraarrows:netherite_magnetic_arrow"
+    },
+    {
+      "item": "xtraarrows:golden_magnetic_arrow"
+    }
+  ]
+}

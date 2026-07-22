@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "legendary_monsters"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "legendary_monsters:gravity_pull",
+  "providers": [
+    {
+      "item": "legendary_monsters:shulker_mimic_spawn_egg"
+    }
+  ]
+}

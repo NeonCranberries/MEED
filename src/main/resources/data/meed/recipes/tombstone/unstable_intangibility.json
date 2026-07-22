@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tombstone"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "tombstone:unstable_intangibility",
+  "providers": [
+    {
+      "item": "tombstone:scroll_of_unstable_intangibility"
+    }
+  ]
+}

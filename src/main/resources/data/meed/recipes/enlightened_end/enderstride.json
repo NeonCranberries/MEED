@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enlightened_end"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "enlightened_end:enderstride",
+  "providers": [
+    {
+      "item": "enlightened_end:ooze_bottle"
+    },
+    {
+      "item": "enlightened_end:ooze_fluid_bucket"
+    }
+  ]
+}

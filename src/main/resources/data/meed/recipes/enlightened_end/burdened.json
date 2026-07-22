@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enlightened_end"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "enlightened_end:burdened",
+  "providers": [
+    {
+      "item": "enlightened_end:stalker_spawn_egg"
+    }
+  ]
+}

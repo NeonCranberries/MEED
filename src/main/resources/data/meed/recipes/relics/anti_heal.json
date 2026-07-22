@@ -1,0 +1,16 @@
+{
+  "conditions": [
+    {
+      "type": "meed:mod_version_range",
+      "modid": "relics",
+      "versionRange": "[0.4.8.1,0.8.0.13]"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "relics:anti_heal",
+  "providers": [
+    {
+      "item": "relics:spore_sack"
+    }
+  ]
+}

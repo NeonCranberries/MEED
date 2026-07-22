@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "illageandspillage"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "illageandspillage:disability",
+  "providers": [
+    {
+      "item": "illageandspillage:spiritcaller_spawn_egg"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "illageandspillage"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "illageandspillage:preserved",
+  "providers": [
+    {
+      "item": "illageandspillage:preserver_spawn_egg"
+    }
+  ]
+}

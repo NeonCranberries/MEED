@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "born_in_chaos_v1"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "born_in_chaos_v1:rotten_smell",
+  "providers": [
+    {
+      "item": "born_in_chaos_v1:decaying_zombie_spawn_egg"
+    },
+    {
+      "item": "born_in_chaos_v1:zombie_fisherman_spawn_egg"
+    },
+    {
+      "item": "born_in_chaos_v1:swarmer_spawn_egg"
+    }
+
+  ]
+}

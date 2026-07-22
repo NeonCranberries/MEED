@@ -1,0 +1,24 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "soulsweapons"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "soulsweapons:magic_resistance",
+  "providers": [
+    {
+      "item": "soulsweapons:soul_robes_helmet"
+    },
+    {
+      "item": "soulsweapons:soul_robes_chestplate"
+    },
+    {
+      "item": "soulsweapons:soul_robes_leggings"
+    },
+    {
+      "item": "soulsweapons:soul_robes_boots"
+    }
+  ]
+}

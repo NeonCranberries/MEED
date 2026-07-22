@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "soulsweapons"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "soulsweapons:posture_break",
+  "providers": [
+    {
+      "item": "soulsweapons:silver_bullet"
+    }
+  ]
+}

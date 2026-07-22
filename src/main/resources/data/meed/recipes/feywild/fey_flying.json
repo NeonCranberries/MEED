@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "feywild"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "feywild:fey_flying",
+  "providers": [
+    {
+      "item": "feywild:fey_wings_autumn"
+    },
+    {
+      "item": "feywild:fey_wings_light"
+    },
+    {
+      "item": "feywild:fey_wings_spring"
+    },
+    {
+      "item": "feywild:fey_wings_summer"
+    },
+    {
+      "item": "feywild:fey_wings_winter"
+    },
+    {
+      "item": "feywild:fey_wings_shadow"
+    }
+  ]
+}

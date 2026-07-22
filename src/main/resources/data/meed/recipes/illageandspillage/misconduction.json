@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "illageandspillage"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "illageandspillage:misconduction",
+  "providers": [
+    {
+      "item": "illageandspillage:spellbound_book"
+    }
+  ]
+}

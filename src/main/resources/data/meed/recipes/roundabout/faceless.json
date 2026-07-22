@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "roundabout"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "roundabout:faceless",
+  "providers": [
+    {
+      "item": "roundabout:cinderella_disc"
+    }
+  ],
+  "effect_providers": [
+    "roundabout:capturing_love"
+  ]
+}

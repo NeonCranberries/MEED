@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tconstruct"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "tconstruct:self_destructing",
+  "providers": [
+    {
+      "item": "tconstruct:slime_helmet"
+    }
+  ]
+}

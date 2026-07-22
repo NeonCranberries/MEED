@@ -1,0 +1,48 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spore"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "spore:symbiosis",
+  "providers": [
+    {
+      "item": "spore:inf_helmet"
+    },
+    {
+      "item": "spore:inf_chest"
+    },
+    {
+      "item": "spore:inf_pants"
+    },
+    {
+      "item": "spore:inf_boots"
+    },
+    {
+      "item": "spore:inf_up_helmet"
+    },
+    {
+      "item": "spore:inf_up_chest"
+    },
+    {
+      "item": "spore:inf_up_pants"
+    },
+    {
+      "item": "spore:inf_up_boots"
+    },
+    {
+      "item": "spore:living_helmet"
+    },
+    {
+      "item": "spore:living_chest"
+    },
+    {
+      "item": "spore:living_pants"
+    },
+    {
+      "item": "spore:living_boots"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "wan_ancient_beasts"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "wan_ancient_beasts:alpha",
+  "providers": [
+    {
+      "item": "wan_ancient_beasts:eater_spawn_egg"
+    }
+  ]
+}

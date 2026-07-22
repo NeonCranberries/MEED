@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "tomeofblood"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "tomeofblood:serene",
+  "providers": [
+    {
+      "item": "tomeofblood:mint_tea"
+    }
+  ]
+}

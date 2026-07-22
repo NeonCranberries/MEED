@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "netherexp"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "netherexp:unbounded_speed",
+  "providers": [
+    {
+      "item": "netherexp:soul_swirls"
+    }
+  ]
+}

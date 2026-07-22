@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "sculkybits"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "sculkybits:sculk",
+  "providers": [
+    {
+      "item": "sculkybits:sculk_growth"
+    },
+    {
+      "item": "sculkybits:sculk_bucket"
+    }
+  ]
+}

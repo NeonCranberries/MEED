@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "ars_nouveau:hex",
+  "providers": [
+    {
+      "item": "ars_nouveau:glyph_hex"
+    }
+  ]
+}

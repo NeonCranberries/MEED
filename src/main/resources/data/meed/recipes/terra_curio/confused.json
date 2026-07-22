@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "terra_curio"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "terra_curio:confused",
+  "providers": [
+    {
+      "item": "terra_curio:brain_of_confusion"
+    }
+  ]
+}

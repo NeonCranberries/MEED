@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "divine_weaponry"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "divine_weaponry:wither_resistance",
+  "providers": [
+    {
+      "item": "divine_weaponry:erebus_scythe"
+    }
+  ]
+}

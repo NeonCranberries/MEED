@@ -1,0 +1,90 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "roundabout"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "roundabout:bleed",
+  "providers": [
+    {
+      "item": "roundabout:wooden_glaive"
+    },
+    {
+      "item": "roundabout:stone_glaive"
+    },
+    {
+      "item": "roundabout:iron_glaive"
+    },
+    {
+      "item": "roundabout:golden_glaive"
+    },
+    {
+      "item": "roundabout:diamond_glaive"
+    },
+    {
+      "item": "roundabout:netherite_glaive"
+    },
+    {
+      "item": "roundabout:knife"
+    },
+    {
+      "item": "roundabout:knife_bundle"
+    },
+    {
+      "item": "roundabout:colt_revolver"
+    },
+    {
+      "item": "roundabout:tommy_gun"
+    },
+    {
+      "item": "roundabout:snubnose_revolver"
+    },
+    {
+      "item": "roundabout:jackal_rifle"
+    },
+    {
+      "item": "roundabout:wire_trap"
+    },
+    {
+      "item": "roundabout:barbed_wire"
+    },
+    {
+      "item": "roundabout:barbed_wire_bundle"
+    },
+    {
+      "item": "roundabout:scissors"
+    },
+    {
+      "item": "roundabout:sacrificial_dagger"
+    },
+    {
+      "item": "roundabout:bowler_hat"
+    },
+    {
+      "item": "roundabout:star_platinum_disc"
+    },
+    {
+      "item": "roundabout:max_star_platinum_disc"
+    },
+    {
+      "item": "roundabout:walking_heart_disc"
+    },
+    {
+      "item": "roundabout:max_walking_heart_disc"
+    },
+    {
+      "item": "roundabout:the_world_disc"
+    },
+    {
+      "item": "roundabout:max_the_world_disc"
+    },
+    {
+      "item": "roundabout:survivor_disc"
+    },
+    {
+      "item": "roundabout:cinderella_disc"
+    }
+  ]
+}

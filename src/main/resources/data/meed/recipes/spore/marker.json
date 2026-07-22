@@ -1,0 +1,39 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spore"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "spore:marker",
+  "providers": [
+    {
+      "item": "spore:braio_spawnegg"
+    },
+    {
+      "item": "spore:naiad_spawnegg"
+    },
+    {
+      "item": "spore:howler_spawnegg"
+    },
+    {
+      "item": "spore:volatile_spawnegg"
+    },
+    {
+      "item": "spore:brotkatze_spawnegg"
+    },
+    {
+      "item": "spore:braurei_spawnegg"
+    },
+    {
+      "item": "spore:biomass_bulb"
+    },
+    {
+      "item": "spore:membrane_block"
+    },
+    {
+      "item": "spore:organite"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "roundabout"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "roundabout:stand_virus",
+  "providers": [
+    {
+      "item": "roundabout:stand_arrow"
+    },
+    {
+      "item": "roundabout:stand_beetle_arrow"
+    }
+  ]
+}

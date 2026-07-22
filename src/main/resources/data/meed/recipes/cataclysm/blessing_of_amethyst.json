@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cataclysm"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "cataclysm:blessing_of_amethyst",
+  "providers": [
+    {
+      "item": "cataclysm:altar_of_amethyst"
+    }
+  ]
+}

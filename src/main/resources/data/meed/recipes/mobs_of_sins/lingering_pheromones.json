@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mobs_of_sins"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "mobs_of_sins:lingering_pheromones", 
+  "providers": [
+    {
+      "item": "mobs_of_sins:cockroach_heart"
+    }
+  ]
+}

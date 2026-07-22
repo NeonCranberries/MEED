@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "ars_nouveau:soaked",
+  "providers": [
+    {
+      "item": "ars_nouveau:glyph_extend_time"
+    },
+    {
+      "item": "ars_nouveau:glyph_conjure_water"
+    }
+  ]
+}

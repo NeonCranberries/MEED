@@ -1,0 +1,21 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "vampirism"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "vampirism:sanguinare",
+  "providers": [
+    {
+      "item": "vampirism:injection_sanguinare"
+    },
+    {
+      "item": "vampirism:vampire_fang"
+    },
+    {
+      "item": "vampirism:vampire_spawn_egg"
+    }
+  ]
+}

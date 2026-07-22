@@ -1,0 +1,16 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "born_in_chaos_v1"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "born_in_chaos_v1:myiasis",
+  "providers": [
+    {
+      "item": "born_in_chaos_v1:bloody_gadfly_spawn_egg"
+    }
+
+  ]
+}

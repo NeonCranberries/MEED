@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aether_redux"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "aether_redux:adrenal_fatigue",
+  "providers": [
+    {
+      "item": "aether_redux:shroom_ring"
+    }
+  ],
+  "effect_providers": [
+    "aether_redux:adrenaline_rush"
+  ]
+}

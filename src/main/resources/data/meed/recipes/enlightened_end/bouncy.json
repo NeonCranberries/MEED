@@ -1,0 +1,15 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "enlightened_end"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "enlightened_end:bouncy",
+  "providers": [
+    {
+      "item": "enlightened_end:squished_bouncer"
+    }
+  ]
+}

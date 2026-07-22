@@ -1,0 +1,21 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "biomancy"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "providers": [
+    {
+      "item": "biomancy:caustic_gunblade"
+    },
+    {
+      "item": "biomancy:acid_bucket"
+    }
+  ],
+  "fluid_providers": [
+    "biomancy:acid"
+  ],
+  "effect": "biomancy:corrosive"
+}
