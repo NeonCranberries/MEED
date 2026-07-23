@@ -1,7 +1,8 @@
 # 8.0.2
 
-- Added a new condition type (mod_version_range) that lets recipes be gated on a specific version range of a mod.
-- Fixed multiple parsing errors with newer versions of Relics, whose update broke the existing compatibility recipes — it now uses the new version-range condition, and will only load for the Relics versions it's actually compatible with.
+- Added a new condition type (mod_version_range) that lets recipes load gated on a specific version range of a mod.
+- Fixed multiple parsing errors with newer versions of Relics, whose update broke the existing compatibility recipes. The recipes now use the new version-range condition, and will only load for the Relics versions they are actually compatible with.
+- Fixed an unrelated parsing error for the Honey effect from Terra Curio
 - Implemented GitHub repo
 
 # 8.0.1

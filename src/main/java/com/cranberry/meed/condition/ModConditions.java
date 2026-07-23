@@ -1,36 +1,16 @@
 package com.cranberry.meed.condition;
 
-import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
-import com.mojang.serialization.codecs.RecordCodecBuilder;
-import net.neoforged.fml.ModList;
 import net.neoforged.neoforge.common.conditions.ICondition;
-import org.apache.maven.artifact.versioning.ArtifactVersion;
-import org.apache.maven.artifact.versioning.VersionRange;
-import org.apache.maven.artifact.versioning.InvalidVersionSpecificationException;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.NeoForgeRegistries;
 
-public record ModVersionRangeCondition(String modid, String versionRange) implements ICondition {
+import java.util.function.Supplier;
 
-    public static final MapCodec<ModVersionRangeCondition> CODEC = RecordCodecBuilder.mapCodec(instance -> instance.group(
-            Codec.STRING.fieldOf("modid").forGetter(ModVersionRangeCondition::modid),
-            Codec.STRING.fieldOf("versionRange").forGetter(ModVersionRangeCondition::versionRange)
-    ).apply(instance, ModVersionRangeCondition::new));
+public class ModConditions {
+    public static final DeferredRegister<MapCodec<? extends ICondition>> CONDITION_CODECS =
+            DeferredRegister.create(NeoForgeRegistries.Keys.CONDITION_CODECS, "meed");
 
-    @Override
-    public boolean test(IContext context) {
-        return ModList.get().getModContainerById(modid).map(container -> {
-            try {
-                ArtifactVersion current = container.getModInfo().getVersion();
-                VersionRange range = VersionRange.createFromVersionSpec(versionRange);
-                return range.containsVersion(current);
-            } catch (InvalidVersionSpecificationException e) {
-                return false;
-            }
-        }).orElse(false);
-    }
-
-    @Override
-    public MapCodec<? extends ICondition> codec() {
-        return CODEC;
-    }
+    public static final Supplier<MapCodec<ModVersionRangeCondition>> MOD_VERSION_RANGE =
+            CONDITION_CODECS.register("mod_version_range", () -> ModVersionRangeCondition.CODEC);
 }

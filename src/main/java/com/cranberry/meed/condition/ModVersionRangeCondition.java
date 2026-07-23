@@ -1,23 +1,20 @@
 package com.cranberry.meed.condition;
 
-import net.minecraftforge.common.crafting.conditions.ICondition;
-import net.minecraftforge.fml.ModList;
-import net.minecraft.resources.ResourceLocation;
+import com.mojang.serialization.Codec;
+import com.mojang.serialization.MapCodec;
+import com.mojang.serialization.codecs.RecordCodecBuilder;
+import net.neoforged.fml.ModList;
+import net.neoforged.neoforge.common.conditions.ICondition;
 import org.apache.maven.artifact.versioning.ArtifactVersion;
 import org.apache.maven.artifact.versioning.VersionRange;
 import org.apache.maven.artifact.versioning.InvalidVersionSpecificationException;
 
-public class ModVersionRangeCondition implements ICondition {
-    private final String modid;
-    private final String versionRange;
+public record ModVersionRangeCondition(String modid, String versionRange) implements ICondition {
 
-    public ModVersionRangeCondition(String modid, String versionRange) {
-        this.modid = modid;
-        this.versionRange = versionRange;
-    }
-
-    public String getModid() { return modid; }
-    public String getVersionRange() { return versionRange; }
+    public static final MapCodec<ModVersionRangeCondition> CODEC = RecordCodecBuilder.mapCodec(instance -> instance.group(
+            Codec.STRING.fieldOf("modid").forGetter(ModVersionRangeCondition::modid),
+            Codec.STRING.fieldOf("versionRange").forGetter(ModVersionRangeCondition::versionRange)
+    ).apply(instance, ModVersionRangeCondition::new));
 
     @Override
     public boolean test(IContext context) {
@@ -33,12 +30,7 @@ public class ModVersionRangeCondition implements ICondition {
     }
 
     @Override
-    public ResourceLocation getID() {
-        return ModVersionRangeConditionSerializer.ID;
-    }
-
-    @Override
-    public String toString() {
-        return "mod_version_range(\"" + modid + "\", \"" + versionRange + "\")";
+    public MapCodec<? extends ICondition> codec() {
+        return CODEC;
     }
 }
