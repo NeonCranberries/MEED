@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "born_in_chaos_v1"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "born_in_chaos_v1:stimulation",
+  "providers": [
+    {
+      "item": "born_in_chaos_v1:stimulating_bomb"
+    },
+    {
+      "item": "born_in_chaos_v1:stimulating_decoction"
+    },
+    {
+      "item": "born_in_chaos_v1:puddleof_stimulation"
+    }
+
+  ]
+}

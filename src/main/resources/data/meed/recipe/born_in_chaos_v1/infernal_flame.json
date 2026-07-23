@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "born_in_chaos_v1"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "born_in_chaos_v1:infernal_flame",
+  "providers": [
+    {
+      "item": "born_in_chaos_v1:lord_pumpkinhead_spawn_egg"
+    },
+    {
+      "item": "born_in_chaos_v1:pumpkin_pistol"
+    },
+    {
+      "item": "born_in_chaos_v1:soulbane"
+    },
+    {
+      "item": "born_in_chaos_v1:lord_pumpkinheads_hat_helmet"
+    }
+
+  ]
+}

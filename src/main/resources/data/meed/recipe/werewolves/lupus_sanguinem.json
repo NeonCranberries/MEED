@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "werewolves"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "werewolves:lupus_sanguinem", 
+  "providers": [
+    {
+      "item": "werewolves:werewolf_tooth"
+    },
+    {
+      "item": "werewolves:human_werewolf_spawn_egg"
+    },
+    {
+      "item": "werewolves:alpha_werewolf_spawn_egg"
+    },
+    {
+      "item": "werewolves:werewolf_beast_spawn_egg"
+    },
+    {
+      "item": "werewolves:werewolf_survivalist_spawn_egg"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "biomancy"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "biomancy:withdrawal",
+  "effect_providers": [
+    "biomancy:frenzy"
+  ]
+}

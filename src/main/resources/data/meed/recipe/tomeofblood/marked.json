@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "tomeofblood"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "tomeofblood:marked",
+  "providers": [
+    {
+      "item": "tomeofblood:glyph_sentient_wrath"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "soulsweapons"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "soulsweapons:disable_heal",
+  "providers": [
+    {
+      "item": "soulsweapons:skofnung"
+    }
+  ]
+}

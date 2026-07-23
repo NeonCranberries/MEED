@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "galosphere"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "galosphere:block_bane",
+  "providers": [
+    {
+      "item": "galosphere:berserker_spawn_egg"
+    }
+  ]
+}

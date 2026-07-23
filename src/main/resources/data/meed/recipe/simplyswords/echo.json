@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "simplyswords"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "simplyswords:echo",
+  "providers": [
+    {
+      "item": "simplyswords:whisperwind"
+    }
+  ]
+}

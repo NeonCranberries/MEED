@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "roundabout"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "roundabout:capturing_love",
+  "providers": [
+    {
+      "item": "roundabout:cinderella_disc"
+    }
+  ]
+}

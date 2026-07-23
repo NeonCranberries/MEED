@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aether"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "aether:remedy",
+  "providers": [
+    {
+      "item": "aether:skyroot_remedy_bucket"
+    }
+  ]
+}

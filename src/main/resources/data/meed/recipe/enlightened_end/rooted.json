@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enlightened_end"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "enlightened_end:rooted",
+  "providers": [
+    {
+      "item": "enlightened_end:rooting_blade"
+    },
+    {
+      "item": "enlightened_end:ancient_root"
+    }
+  ]
+}

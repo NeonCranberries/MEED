@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "soulsweapons"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "soulsweapons:calculated_fall",
+  "providers": [
+    {
+      "item": "soulsweapons:darkin_blade"
+    },
+    {
+      "item": "soulsweapons:comet_spear"
+    }
+  ]
+}

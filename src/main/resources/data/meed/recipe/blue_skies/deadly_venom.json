@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "blue_skies"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "blue_skies:deadly_venom",
+  "providers": [
+    {
+      "item": "blue_skies:poison_key"
+    }
+  ]
+}

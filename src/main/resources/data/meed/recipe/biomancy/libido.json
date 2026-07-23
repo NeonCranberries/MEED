@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "biomancy"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "biomancy:libido",
+  "providers": [
+    {
+      "item": "biomancy:breeding_stimulant"
+    }
+  ]
+}

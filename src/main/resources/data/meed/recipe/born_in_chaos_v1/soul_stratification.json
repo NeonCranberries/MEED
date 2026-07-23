@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "born_in_chaos_v1"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "born_in_chaos_v1:soul_stratification",
+  "providers": [
+    {
+      "item": "born_in_chaos_v1:sir_pumpkinhead_spawn_egg"
+    },
+    {
+      "item": "born_in_chaos_v1:lord_pumpkinhead_spawn_egg"
+    },
+    {
+      "item": "born_in_chaos_v1:soul_cutlass"
+    },
+    {
+      "item": "born_in_chaos_v1:soulbane"
+    }
+
+  ]
+}

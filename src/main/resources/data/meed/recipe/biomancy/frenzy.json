@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "biomancy"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "biomancy:frenzy",
+  "providers": [
+    {
+      "item": "biomancy:frenzy_serum"
+    }
+  ]
+}

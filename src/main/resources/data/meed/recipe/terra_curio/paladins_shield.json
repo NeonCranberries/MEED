@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "terra_curio"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "terra_curio:paladins_shield",
+  "providers": [
+    {
+      "item": "terra_curio:paladins_shield"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "netherexp"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "netherexp:betrayed",
+  "providers": [
+    {
+      "item": "netherexp:treacherous_candle"
+    }
+  ]
+}

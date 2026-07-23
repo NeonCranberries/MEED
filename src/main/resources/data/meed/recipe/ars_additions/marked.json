@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ars_additions"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "ars_additions:marked",
+  "providers": [
+    {
+      "item": "ars_additions:glyph_mark"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "born_in_chaos_v1"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "born_in_chaos_v1:magic_depletion",
+  "providers": [
+    {
+      "item": "born_in_chaos_v1:nightmare_stalker_spawn_egg"
+    },
+    {
+      "item": "born_in_chaos_v1:nightmare_scythe"
+    },
+    {
+      "item": "born_in_chaos_v1:spirit_guide_spawn_egg"
+    }
+
+  ]
+}

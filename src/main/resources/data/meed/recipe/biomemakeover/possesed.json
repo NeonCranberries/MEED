@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "biomemakeover"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "biomemakeover:possessed",
+  "providers": [
+    {
+      "item": "biomemakeover:poltergeist"
+    }
+  ]
+}

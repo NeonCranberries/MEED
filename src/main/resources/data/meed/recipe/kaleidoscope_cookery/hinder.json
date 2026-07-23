@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "kaleidoscope_cookery"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "kaleidoscope_cookery:hinder",
+  "providers": [
+    {
+      "item": "kaleidoscope_cookery:sakura_fubuki"
+    }
+  ]
+}

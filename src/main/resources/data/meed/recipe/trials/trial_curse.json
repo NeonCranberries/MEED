@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "trials"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "trials:trial_curse",
+  "providers": [
+    {
+      "item": "trials:trial_spawner"
+    }
+  ],
+  "effect_providers": [
+    "minecraft:bad_omen"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "legendary_monsters"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "legendary_monsters:bleeding",
+  "providers": [
+    {
+      "item": "legendary_monsters:posessed_paladin_spawn_egg"
+    },
+    {
+      "item": "legendary_monsters:golden_halbert"
+    },
+    {
+      "item": "legendary_monsters:soul_great_sword"
+    },
+    {
+      "item": "legendary_monsters:spiky_shield"
+    }
+  ]
+}

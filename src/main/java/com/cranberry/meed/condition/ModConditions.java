@@ -1,17 +1,36 @@
 package com.cranberry.meed.condition;
 
-import net.minecraftforge.common.crafting.CraftingHelper;
-import net.minecraftforge.registries.RegisterEvent;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.registries.ForgeRegistries;
+import com.mojang.serialization.Codec;
+import com.mojang.serialization.MapCodec;
+import com.mojang.serialization.codecs.RecordCodecBuilder;
+import net.neoforged.fml.ModList;
+import net.neoforged.neoforge.common.conditions.ICondition;
+import org.apache.maven.artifact.versioning.ArtifactVersion;
+import org.apache.maven.artifact.versioning.VersionRange;
+import org.apache.maven.artifact.versioning.InvalidVersionSpecificationException;
 
-@Mod.EventBusSubscriber(modid = "meed", bus = Mod.EventBusSubscriber.Bus.MOD)
-public class ModConditions {
-    @SubscribeEvent
-    public static void register(RegisterEvent event) {
-        if (event.getRegistryKey().equals(ForgeRegistries.Keys.RECIPE_SERIALIZERS)) {
-            CraftingHelper.register(ModVersionRangeConditionSerializer.INSTANCE);
-        }
+public record ModVersionRangeCondition(String modid, String versionRange) implements ICondition {
+
+    public static final MapCodec<ModVersionRangeCondition> CODEC = RecordCodecBuilder.mapCodec(instance -> instance.group(
+            Codec.STRING.fieldOf("modid").forGetter(ModVersionRangeCondition::modid),
+            Codec.STRING.fieldOf("versionRange").forGetter(ModVersionRangeCondition::versionRange)
+    ).apply(instance, ModVersionRangeCondition::new));
+
+    @Override
+    public boolean test(IContext context) {
+        return ModList.get().getModContainerById(modid).map(container -> {
+            try {
+                ArtifactVersion current = container.getModInfo().getVersion();
+                VersionRange range = VersionRange.createFromVersionSpec(versionRange);
+                return range.containsVersion(current);
+            } catch (InvalidVersionSpecificationException e) {
+                return false;
+            }
+        }).orElse(false);
+    }
+
+    @Override
+    public MapCodec<? extends ICondition> codec() {
+        return CODEC;
     }
 }

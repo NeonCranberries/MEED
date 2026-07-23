@@ -1,12 +1,16 @@
 package com.cranberry.meed;
 
-import net.minecraftforge.fml.common.Mod;
+import com.cranberry.meed.condition.ModConditions;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.fml.ModContainer;
+import net.neoforged.fml.common.Mod;
 
 @Mod(MeedMod.MODID)
 public class MeedMod {
 
     public static final String MODID = "meed";
-    public MeedMod() {
 
+    public MeedMod(IEventBus modEventBus, ModContainer container) {
+        ModConditions.CONDITION_CODECS.register(modEventBus);
     }
 }

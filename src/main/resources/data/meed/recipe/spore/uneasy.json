@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "spore"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "spore:uneasy",
+  "providers": [
+    {
+      "item": "spore:vigil_spawnegg"
+    }
+  ]
+}

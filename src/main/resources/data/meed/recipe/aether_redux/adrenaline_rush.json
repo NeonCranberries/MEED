@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "aether_redux"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "aether_redux:adrenaline_rush",
+  "providers": [
+    {
+      "item": "aether_redux:shroom_ring"
+    }
+  ]
+}

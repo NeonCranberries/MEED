@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "relics"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "relics:immortality",
+  "providers": [
+    {
+      "item": "relics:holy_locket"
+    }
+  ]
+}

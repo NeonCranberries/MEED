@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "block_factorys_bosses"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "minecraft:poison", 
+  "providers": [
+    {
+      "item": "block_factorys_bosses:sandworm_dart"
+    },
+    {
+      "item": "block_factorys_bosses:sandworm_spawn_egg"
+    }
+  ]
+}

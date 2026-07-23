@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "bloodandmadness"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "bloodandmadness:trapped", 
+  "providers": [
+    {
+      "item": "bloodandmadness:eggs/brainsucker_spawn_egg"
+    }
+  ]
+}

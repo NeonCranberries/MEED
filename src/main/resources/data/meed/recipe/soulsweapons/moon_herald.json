@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "soulsweapons"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "soulsweapons:moon_herald",
+  "providers": [
+    {
+      "item": "soulsweapons:moonstone_ring"
+    }
+  ]
+}

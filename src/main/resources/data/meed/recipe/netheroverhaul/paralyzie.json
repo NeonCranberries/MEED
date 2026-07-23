@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "netheroverhaul"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "netheroverhaul:paralyzie", 
+  "providers": [
+    {
+      "item": "netheroverhaul:bruger_spawn_egg"
+    }
+  ]
+}

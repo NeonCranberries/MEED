@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "illageandspillage"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "illageandspillage:webbed",
+  "providers": [
+    {
+      "item": "illageandspillage:ragno_spawn_egg"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "cataclysm"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "cataclysm:ghost_sickness",
+  "providers": [
+    {
+      "item": "cataclysm:cursium_chestplate"
+    }
+  ],
+  "effect_providers": [
+    "cataclysm:ghost_form"
+  ]
+}

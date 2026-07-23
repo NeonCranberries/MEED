@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "vanilla_degus"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "vanilla_degus:degus_grace",
+  "providers": [
+    {
+      "item": "vanilla_degus:degu_spawn_egg"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "sculkhorde"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "sculkhorde:sculk_lure",
+  "providers": [
+    {
+      "item": "sculkhorde:sculk_spore_spewer_spawn_egg"
+    }
+  ]
+}

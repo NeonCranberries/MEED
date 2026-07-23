@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "gag"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "gag:repelling", 
+  "providers": [
+    {
+      "item": "gag:sacred_salt"
+    },
+    {
+      "item": "gag:sacred_salve"
+    },
+    {
+      "item": "gag:sacred_balm"
+    }
+  ]
+}

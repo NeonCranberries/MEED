@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "too_many_bows"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "too_many_bows:cursed_flame",
+  "providers": [
+    {
+      "item": "too_many_bows:necro_flame_bow"
+    }
+  ]
+}

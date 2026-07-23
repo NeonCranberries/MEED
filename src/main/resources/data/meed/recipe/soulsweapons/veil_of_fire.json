@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "soulsweapons"
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "soulsweapons:veil_of_fire",
+  "providers": [
+    {
+      "item": "soulsweapons:empowered_dawnbreaker"
+    }
+  ]
+}
