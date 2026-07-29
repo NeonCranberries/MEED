@@ -477,7 +477,7 @@
   "effect.nethervinery.improved_hearthstone.description": "Teleports the user to their spawn point and grants regeneration and absorption.",
   "effect.nethervinery.netherite.description": "Grants the user immunity to fire and lava.",
 
-  "effect.projectile_damage.impact.description": "Increases projectile damage.",
+  "effect.projectile_damage.impact.description": "Increases ranged damage.",
 
   "effect.brewery.toxictouch.description": "Applies Poison to all hit entities.",
   "effect.brewery.renewingtouch.description": "Applies Regeneration to all hit entities.",
@@ -722,6 +722,9 @@
   "effect.earthmobsmod.hyper_spark.description": "Increases max sprint speed and deals damage to entities user comes into contact with when sprinting.",
   "effect.earthmobsmod.undead_body.description": "Causes healing to inflict damage instead.",
   "effect.earthmobsmod.zombified.description": "Causes user to turn into a zombie when defeated by the damage from the effect. Only affects certain mobs.",
-  "effect.earthmobsmod.toughness.description": "Increases armor toughness and knockback resistance."
+  "effect.earthmobsmod.toughness.description": "Increases armor toughness and knockback resistance.",
+
+  "effect.ranged_weapon.damage.description": "Increases ranged damage",
+  "effect.ranged_weapon.haste.description": "Increases ranged attack speed"
 
 }
