@@ -15,13 +15,6 @@ import net.minecraftforge.network.PacketDistributor;
 
 import java.util.List;
 
-/**
- * Registered from MeedMod's constructor via
- * MinecraftForge.EVENT_BUS.register(MeedCommands.class) - all handlers
- * here are static so a Class registration (not an instance) is enough.
- * Future subcommands are just more .then(...) branches and more
- * private static run... methods.
- */
 public class MeedCommands {
 
     @SubscribeEvent
@@ -58,12 +51,8 @@ public class MeedCommands {
         return 1;
     }
 
-    /**
-     * Lang data only exists client-side, so this needs a real client to
-     * run against: the player who ran the command if one did, otherwise
-     * the first connected player as a console/RCON fallback, otherwise
-     * fails with an explanation.
-     */
+    // lang data only exists client-side, so fall back to the first
+    // connected player if run from console
     private static ServerPlayer resolveTargetPlayer(CommandSourceStack source) {
 
         if (source.getEntity() instanceof ServerPlayer player) {

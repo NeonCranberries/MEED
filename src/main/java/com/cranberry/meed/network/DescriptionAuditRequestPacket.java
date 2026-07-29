@@ -9,11 +9,6 @@ import net.minecraftforge.network.NetworkEvent;
 import java.util.List;
 import java.util.function.Supplier;
 
-/**
- * Server -> client only, one-directional - the client just displays the
- * report to itself, since the only audience for the results is
- * whichever player's client computed them.
- */
 public class DescriptionAuditRequestPacket {
 
     public static void encode(DescriptionAuditRequestPacket packet, FriendlyByteBuf buffer) {

@@ -11,19 +11,11 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.util.stream.Collectors;
 
-/**
- * Checks every registered MobEffect for a description lang key following
- * the "effect.<namespace>.<path>.description" convention, grouped by mod.
- *
- * Only checked against whatever language the running client currently
- * has active - a mod that only ships an en_us description would show as
- * "missing" to a player running a different language. Checking en_us
- * specifically regardless of active language would need reading the raw
- * lang resource directly instead of the live Language instance - not
- * done here, flagged as a known limitation instead.
- */
 public class DescriptionAuditor {
 
+    // only checks against whatever language is currently active, not en_us
+    // specifically - a mod that only has an en_us description would show
+    // as "missing" on a non-English client
     public static List<String> buildReport() {
 
         Map<String, List<ResourceLocation>> byMod = new TreeMap<>();
@@ -61,7 +53,7 @@ public class DescriptionAuditor {
             }
 
             if (missing.isEmpty())
-                continue; // fully covered - don't list this mod at all
+                continue;
 
             if (missing.size() == effects.size()) {
 
