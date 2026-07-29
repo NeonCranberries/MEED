@@ -1,7 +1,7 @@
 # 8.0.3
 
 - Added a command that outputs all effects missing a description from each mod (for development, debugging, and modpack making purposes)
-- Added the official descriptions for Ranged Damage API for parity with 1.20.1
+- Added the official descriptions for Ranged Weapon API for parity with 1.20.1
 - Edited Projectile Damage Attribute description
 
 # 8.0.2
