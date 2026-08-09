@@ -1,3 +1,9 @@
+# 8.0.4
+- Added descriptions and effect providers for the new Corail Tombstone effects
+- Fixed a parsing error with newer versions of Corail Tombstone, whose updates broke the existing compatibility recipe with Prayer — it now uses the version-range condition, and will only load for the versions it's actually compatible with.
+- Fixed a typo in Terra Curio's Honey effect's description
+- Added missing periods to Ranged Weapon APIs descriptions
+
 # 8.0.3
 
 - Added a command that outputs all effects missing a description from each mod (for development, debugging, and modpack making purposes)
