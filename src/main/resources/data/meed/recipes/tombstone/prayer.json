@@ -3,7 +3,7 @@
     {
       "type": "meed:mod_version_range",
       "modid": "tombstone",
-      "versionRange": "[8.7.1]"
+      "versionRange": "[8.7.1,)"
     }
   ],
   "type": "jeed:effect_provider",
