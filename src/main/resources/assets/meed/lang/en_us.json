@@ -710,7 +710,7 @@
   "effect.terra_curio.gravitation.description": "Flips gravity when the up arrow key is pressed.",
   "effect.terra_curio.paladins_shield.description": "Absorbs 25% done to players on user's team when above 25% health.",
   "effect.terra_curio.cerebral_mindtrick.description": "Prevents user from dodging another attack and increases crit chance.",
-  "effect.terra_curio.honey.description": "Increases life regenration.",
+  "effect.terra_curio.honey.description": "Increases life regeneration.",
 
   "effect.kaleidoscope_cookery.hinder.description": "Inflicts slowness upon targets when the user hits them.",
   "effect.kaleidoscope_cookery.projectile_dodge.description": "Cancels damage and teleports the user to a random nearby location when hit by a projectile (Each time uses 10 seconds of effect duration).",
@@ -726,4 +726,5 @@
 
   "effect.ranged_weapon.damage.description": "Increases ranged damage",
   "effect.ranged_weapon.haste.description": "Increases ranged attack speed"
+
 }

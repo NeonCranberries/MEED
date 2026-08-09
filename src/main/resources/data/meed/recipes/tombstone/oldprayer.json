@@ -3,14 +3,14 @@
     {
       "type": "meed:mod_version_range",
       "modid": "tombstone",
-      "versionRange": "[8.7.1]"
+      "versionRange": "[8.5.0,8.7.0]"
     }
   ],
   "type": "jeed:effect_provider",
   "effect": "tombstone:prayer",
   "providers": [
     {
-      "item": "tombstone:ankh_of_prayer"
+      "item": "tombstone:ankh_of_pray"
     }
   ]
 }
