@@ -710,7 +710,7 @@
   "effect.terra_curio.gravitation.description": "Flips gravity when the up arrow key is pressed.",
   "effect.terra_curio.paladins_shield.description": "Absorbs 25% done to players on user's team when above 25% health.",
   "effect.terra_curio.cerebral_mindtrick.description": "Prevents user from dodging another attack and increases crit chance.",
-  "effect.terra_curio.honey.description": "Increases life regenration.",
+  "effect.terra_curio.honey.description": "Increases life regeneration.",
 
   "effect.kaleidoscope_cookery.hinder.description": "Inflicts slowness upon targets when the user hits them.",
   "effect.kaleidoscope_cookery.projectile_dodge.description": "Cancels damage and teleports the user to a random nearby location when hit by a projectile (Each time uses 10 seconds of effect duration).",
@@ -724,7 +724,16 @@
   "effect.earthmobsmod.zombified.description": "Causes user to turn into a zombie when defeated by the damage from the effect. Only affects certain mobs.",
   "effect.earthmobsmod.toughness.description": "Increases armor toughness and knockback resistance.",
 
-  "effect.ranged_weapon.damage.description": "Increases ranged damage",
-  "effect.ranged_weapon.haste.description": "Increases ranged attack speed"
+  "effect.ranged_weapon.damage.description": "Increases ranged damage.",
+  "effect.ranged_weapon.haste.description": "Increases ranged attack speed.",
+
+  "effect.tombstone.incurable.description": "Reduces healing.",
+  "effect.tombstone.decrepitude.description": "Inflicts damage over time, slightly launching user every hit, and reduces movement speed.",
+  "effect.tombstone.beyond_the_grave_bond.description": "Causes undead mobs to consider user as their own, making them neutral until provoked.",
+  "effect.tombstone.giant_strength.description": "Increases attack damage, attack knockback, user height, and step height.",
+  "effect.tombstone.little_world.description": "Increases movement speed and movement efficiency, and decreases user height and step height.",
+  "effect.tombstone.projectile_reflection.description": "Reflects projectiles back to their origin.",
+  "effect.tombstone.remanence.description": "Increases xp gain.",
+  "effect.tombstone.weaver_walk.description": "Grants user the ability to move quickly over cobwebs."
 
 }
