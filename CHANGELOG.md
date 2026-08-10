@@ -1,3 +1,6 @@
+# 8.0.5
+- Fixed MEED being required on the server
+
 # 8.0.4
 - Added descriptions and effect providers for the new Corail Tombstone effects
 - Fixed a parsing error with newer versions of Corail Tombstone, whose updates broke the existing compatibility recipe with Prayer — it now uses the version-range condition, and will only load for the versions it's actually compatible with.
