@@ -3,10 +3,17 @@
     {
       "type": "forge:mod_loaded",
       "modid": "mobs_of_sins"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "mobs_of_sins:bane_of_undead", 
+  "effect": "mobs_of_sins:bane_of_undead",
   "providers": [
     {
       "item": "mobs_of_sins:nuisances_muscle"

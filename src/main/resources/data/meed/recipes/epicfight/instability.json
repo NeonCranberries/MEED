@@ -3,10 +3,17 @@
     {
       "type": "forge:mod_loaded",
       "modid": "epicfight"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "epicfight:instability", 
+  "effect": "epicfight:instability",
   "providers": [
     {
       "item": "epicfight:iron_dagger"

@@ -3,10 +3,17 @@
     {
       "type": "forge:mod_loaded",
       "modid": "gag"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "gag:repelling", 
+  "effect": "gag:repelling",
   "providers": [
     {
       "item": "gag:sacred_salt"

@@ -3,6 +3,13 @@
     {
       "type": "forge:mod_loaded",
       "modid": "divine_weaponry"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",

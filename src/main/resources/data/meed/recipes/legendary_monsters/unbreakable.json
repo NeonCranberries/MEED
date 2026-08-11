@@ -2,7 +2,7 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "vampirism"
+      "modid": "legendary_monsters"
     },
     {
       "type": "forge:not",
@@ -13,16 +13,10 @@
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "vampirism:sanguinare",
+  "effect": "legendary_monsters:unbreakable",
   "providers": [
     {
-      "item": "vampirism:injection_sanguinare"
-    },
-    {
-      "item": "vampirism:vampire_fang"
-    },
-    {
-      "item": "vampirism:vampire_spawn_egg"
+      "item": "legendary_monsters:annihilation_chestplate"
     }
   ]
 }

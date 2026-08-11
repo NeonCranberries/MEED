@@ -734,6 +734,10 @@
   "effect.tombstone.little_world.description": "Increases movement speed and movement efficiency, and decreases user height and step height.",
   "effect.tombstone.projectile_reflection.description": "Reflects projectiles back to their origin.",
   "effect.tombstone.remanence.description": "Increases xp gain.",
-  "effect.tombstone.weaver_walk.description": "Grants user the ability to move quickly over cobwebs."
+  "effect.tombstone.weaver_walk.description": "Grants user the ability to move quickly over cobwebs.",
+
+  "effect.legendary_monsters.unbreakable.description": "Grants invulnerability to all damage.",
+  "effect.legendary_monsters.soul_fracture.description": "Unobtainable without config; Decreases maximum health.",
+  "effect.legendary_monsters.annihilation.description": "Decreases attack speed."
 
 }

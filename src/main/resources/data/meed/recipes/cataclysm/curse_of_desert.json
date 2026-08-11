@@ -3,10 +3,17 @@
     {
       "type": "forge:mod_loaded",
       "modid": "cataclysm"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "cataclysm:curse_of_desert", 
+  "effect": "cataclysm:curse_of_desert",
   "providers": [
     {
       "item": "cataclysm:ancient_remnant_spawn_egg"

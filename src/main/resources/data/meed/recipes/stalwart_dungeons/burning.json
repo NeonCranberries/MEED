@@ -3,10 +3,17 @@
     {
       "type": "forge:mod_loaded",
       "modid": "stalwart_dungeons"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "stalwart_dungeons:burning", 
+  "effect": "stalwart_dungeons:burning",
   "providers": [
     {
       "item": "stalwart_dungeons:igniter"

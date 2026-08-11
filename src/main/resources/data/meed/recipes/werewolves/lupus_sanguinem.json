@@ -3,10 +3,17 @@
     {
       "type": "forge:mod_loaded",
       "modid": "werewolves"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "werewolves:lupus_sanguinem", 
+  "effect": "werewolves:lupus_sanguinem",
   "providers": [
     {
       "item": "werewolves:werewolf_tooth"

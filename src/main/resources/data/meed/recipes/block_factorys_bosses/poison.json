@@ -3,10 +3,17 @@
     {
       "type": "forge:mod_loaded",
       "modid": "block_factorys_bosses"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "minecraft:poison", 
+  "effect": "minecraft:poison",
   "providers": [
     {
       "item": "block_factorys_bosses:sandworm_dart"

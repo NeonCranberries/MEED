@@ -3,10 +3,17 @@
     {
       "type": "forge:mod_loaded",
       "modid": "werewolves"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "werewolves:un_werewolf", 
+  "effect": "werewolves:un_werewolf",
   "providers": [
     {
       "item": "werewolves:injection_un_werewolf"

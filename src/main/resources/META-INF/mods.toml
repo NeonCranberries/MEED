@@ -4,7 +4,7 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="meed"
-version="8.0.5"
+version="8.0.6"
 displayName="Moderately Enough Effect Descriptions"
 logoFile="icon.png"
 credits="Neon_Cranberries"

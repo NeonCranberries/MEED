@@ -3,6 +3,13 @@
     {
       "type": "forge:mod_loaded",
       "modid": "born_in_chaos_v1"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
@@ -26,6 +33,5 @@
     {
       "item": "born_in_chaos_v1:dark_metal_armor_boots"
     }
-
   ]
 }

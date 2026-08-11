@@ -1,3 +1,7 @@
+# 8.0.6
+- Added descriptions and effect providers for the new Legendary Monsters effects
+- Fixed all parsing errors when using MEED with EMiffect
+
 # 8.0.5
 - Fixed MEED being required on the server
 

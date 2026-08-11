@@ -3,10 +3,17 @@
     {
       "type": "forge:mod_loaded",
       "modid": "bloodandmadness"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "bloodandmadness:trapped", 
+  "effect": "bloodandmadness:trapped",
   "providers": [
     {
       "item": "bloodandmadness:eggs/brainsucker_spawn_egg"
