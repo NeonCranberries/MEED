@@ -4,6 +4,13 @@
       "type": "meed:mod_version_range",
       "modid": "relics",
       "versionRange": "[0.4.8.1,0.8.0.13]"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",

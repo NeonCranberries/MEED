@@ -3,10 +3,17 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "unusualprehistory"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "unusualprehistory:health_reduction", 
+  "effect": "unusualprehistory:health_reduction",
   "providers": [
     {
       "item": "unusualprehistory:megalania_spawn_egg"

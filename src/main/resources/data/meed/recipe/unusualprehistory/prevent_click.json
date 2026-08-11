@@ -3,10 +3,17 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "unusualprehistory"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "unusualprehistory:prevent_click", 
+  "effect": "unusualprehistory:prevent_click",
   "providers": [
     {
       "item": "unusualprehistory:ulugh_spawn_egg"

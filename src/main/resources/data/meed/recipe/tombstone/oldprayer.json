@@ -4,6 +4,13 @@
       "type": "meed:mod_version_range",
       "modid": "tombstone",
       "versionRange": "[9.0.1,9.0.4)"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",

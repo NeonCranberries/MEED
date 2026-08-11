@@ -3,10 +3,17 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "bloodandmadness"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "bloodandmadness:chikage", 
+  "effect": "bloodandmadness:chikage",
   "providers": [
     {
       "item": "bloodandmadness:weapons/chikage"

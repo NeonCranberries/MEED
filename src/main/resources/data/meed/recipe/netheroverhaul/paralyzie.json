@@ -3,10 +3,17 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "netheroverhaul"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "netheroverhaul:paralyzie", 
+  "effect": "netheroverhaul:paralyzie",
   "providers": [
     {
       "item": "netheroverhaul:bruger_spawn_egg"

@@ -3,10 +3,17 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "deep_aether"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "deep_aether:valkyrie_valor", 
+  "effect": "deep_aether:valkyrie_valor",
   "providers": [
     {
       "item": "deep_aether:medal_of_honor"

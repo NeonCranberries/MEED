@@ -11,7 +11,7 @@ Moderately Enough Effect Descriptions (MEED) is a JEED/EMIffect addon that provi
 
 #### This mod is constantly adding support for new mods and will try and update to the most popular Minecraft versions as soon as possible!
 
- ![Showcase](https://media.forgecdn.net/attachments/790/503/638409486810559684.png)
+![Showcase](https://media.forgecdn.net/attachments/790/503/638409486810559684.png)
 
 
 
@@ -23,13 +23,34 @@ Moderately Enough Effect Descriptions (MEED) is a JEED/EMIffect addon that provi
 
 <h2 style="text-align: center;">🧪 Customization🧪</h2>
 
-#### This mod obviously does not have support for all mods! If you'd like, you can easily change or add effect descriptions by adding/changing the string "effect.\[mod\_id\].\[effect\_name\].description" in the lang file. I'd really appreciate it if you pull requested descriptions you add so that I could add them to the mod! For a more in-depth tutorial on customization, see the [JEED CurseForge page](https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed).
+#### This mod obviously does not have support for all mods! If you'd like, you can easily change or add effect descriptions by adding/changing the string  `"effect.[mod_id].[effect_name].description"` in the lang file. I'd really appreciate it if you commented descriptions you add so that I could add them to the mod! For a more in-depth tutorial on basic customization, see the [JEED CurseForge page](https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed).
+
+ 
+
+#### MEED adds a command to quickly check for all effects missing descriptions. Running `/meed missingdescriptions` lists every mod (and the specific effect IDs) missing a description. This is useful for quickly bugtesting descriptions you make, and for seeing what effects need descriptions when creating modpacks!
+
+ 
+
+#### MEED also adds a custom recipe condition, `mod_version_range`, that lets a recipe only load when a mod falls within the given version range. This is necessary and useful for handling breaking changes between mod versions. For example, when a mod's structure and/or content changes enough that an old compatibility recipe would throw a parsing error on the new version, but you still need that recipe to work for players on older versions (In MEED's case, the mod Relics is an example).
+
+ 
+
+#### **Using `mod_version_range`**
+
+<div class="spoiler"><h5>Add it to any recipe's conditions like so:</h5><pre class="codeStyle">{
+  "neoforge:conditions": [
+    {
+      "type": "meed:mod_version_range",
+      "modid": "somemod",
+      "versionRange": "[1.2.0,1.5.0]"
+    }
+  ],
+  "type": "your:recipe_type",
+  ...
+}</pre><h5>(On the 1.20.1/Forge version of MEED, use the top-level <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">"conditions"</code> key instead of <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">"neoforge:conditions"</code>.)</h5><p>&nbsp;</p><h5>Since a version range check also fails if the mod isn't loaded at all, <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">mod_version_range</code>, for simplicity, should be used on its own in place of a separate <code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">mod_loaded</code> condition when you also need to gate by version.<br><br></h5><h5 class="font-claude-response-body break-words whitespace-normal" dir="ltr"><strong>Version Range Syntax Examples:</strong></h5><div class="overflow-x-auto w-full px-2 mb-6 print:overflow-x-visible" dir="ltr"><table class="min-w-full border-collapse text-sm leading-[1.7] whitespace-normal"><thead class="text-left"><tr><th class="text-text-100 border-b-0.5 border-[hsl(var(--border-300)/0.6)] py-2 pr-4 align-top font-bold" scope="col">Range</th><th class="text-text-100 border-b-0.5 border-[hsl(var(--border-300)/0.6)] py-2 pr-4 align-top font-bold" scope="col">Result</th></tr></thead><tbody><tr><td class="border-b-0.5 border-[hsl(var(--border-300)/0.3)] py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">[1.0.0,2.0.0]</code></td><td class="border-b-0.5 border-[hsl(var(--border-300)/0.3)] py-2 pr-4 align-top">1.0.0 to 2.0.0, inclusive on both ends</td></tr><tr><td class="border-b-0.5 border-[hsl(var(--border-300)/0.3)] py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">[1.0.0,2.0.0)</code></td><td class="border-b-0.5 border-[hsl(var(--border-300)/0.3)] py-2 pr-4 align-top">1.0.0 to 2.0.0, excluding 2.0.0</td></tr><tr><td class="border-b-0.5 border-[hsl(var(--border-300)/0.3)] py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">(1.0.0,2.0.0)</code></td><td class="border-b-0.5 border-[hsl(var(--border-300)/0.3)] py-2 pr-4 align-top">Strictly between 1.0.0 and 2.0.0</td></tr><tr><td class="border-b-0.5 border-[hsl(var(--border-300)/0.3)] py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">[1.0.0,)</code></td><td class="border-b-0.5 border-[hsl(var(--border-300)/0.3)] py-2 pr-4 align-top">1.0.0 and anything newer, open-ended</td></tr><tr><td class="border-b-0.5 border-[hsl(var(--border-300)/0.3)] py-2 pr-4 align-top"><code class="bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]">(,2.0.0)</code></td><td class="border-b-0.5 border-[hsl(var(--border-300)/0.3)] py-2 pr-4 align-top">Anything older than 2.0.0</td></tr></tbody></table>(You can swap out any parentheses for brackets, and vice versa)</div><h5 class="font-claude-response-body break-words whitespace-normal" dir="ltr">If the target mod isn't installed at all, or its version falls outside the range, the recipe is skipped with no parsing errors or crashes. This is the same mechanism vanilla/Forge/NeoForge conditions use and can be used in place of them, just extended to check version ranges rather than only presence.</h5></div>
 
 
-#### Feel free to use this in your modpack!
-
-
-#### Also feel free to make any pull requests you think the mod should have, as well as leave any bugs you find in the issues section!
+#### Feel free to use this in your modpack, and also feel free to leave any bugs/issues and pull requests!
 
   
 

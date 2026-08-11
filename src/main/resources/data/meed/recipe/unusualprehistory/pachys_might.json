@@ -3,10 +3,17 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "unusualprehistory"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "unusualprehistory:pachys_might", 
+  "effect": "unusualprehistory:pachys_might",
   "providers": [
     {
       "item": "unusualprehistory:pachy_spawn_egg"

@@ -3,10 +3,17 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "mobs_of_sins"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "mobs_of_sins:serrated", 
+  "effect": "mobs_of_sins:serrated",
   "providers": [
     {
       "item": "mobs_of_sins:frilled_shark_ribs"

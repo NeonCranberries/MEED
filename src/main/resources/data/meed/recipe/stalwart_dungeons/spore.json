@@ -3,10 +3,17 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "stalwart_dungeons"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "stalwart_dungeons:spore", 
+  "effect": "stalwart_dungeons:spore",
   "providers": [
     {
       "item": "stalwart_dungeons:spore_vaporizer"

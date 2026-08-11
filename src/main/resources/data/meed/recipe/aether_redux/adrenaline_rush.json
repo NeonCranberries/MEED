@@ -3,6 +3,13 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "aether_redux"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",

@@ -2,7 +2,7 @@
   "neoforge:conditions": [
     {
       "type": "neoforge:mod_loaded",
-      "modid": "born_in_chaos_v1"
+      "modid": "legendary_monsters"
     },
     {
       "type": "neoforge:not",
@@ -13,10 +13,10 @@
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "born_in_chaos_v1:undead_summonun",
+  "effect": "legendary_monsters:annihilation",
   "providers": [
     {
-      "item": "born_in_chaos_v1:missioner_spawn_egg"
+      "item": "legendary_monsters:the_obliterator_spawn_egg"
     }
   ]
 }

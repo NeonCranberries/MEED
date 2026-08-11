@@ -3,6 +3,13 @@
     {
       "type": "neoforge:mod_loaded",
       "modid": "born_in_chaos_v1"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "emiffect"
+      }
     }
   ],
   "type": "jeed:effect_provider",
@@ -14,6 +21,5 @@
     {
       "item": "born_in_chaos_v1:great_reaper_axe"
     }
-
   ]
 }
