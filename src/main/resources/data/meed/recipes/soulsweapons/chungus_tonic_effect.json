@@ -13,19 +13,13 @@
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "soulsweapons:bleed",
+  "effect": "soulsweapons:chungus_tonic_effect",
   "providers": [
     {
-      "item": "soulsweapons:whirligig_sawblade"
+      "item": "soulsweapons:chungus_staff"
     },
     {
-      "item": "soulsweapons:skofnung"
-    },
-    {
-      "item": "soulsweapons:nightlords_sword"
-    },
-    {
-      "item": "soulsweapons:draugr_boss_spawn_egg"
+      "item": "soulsweapons:withered_wabbajack"
     }
   ]
 }

@@ -13,19 +13,22 @@
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "soulsweapons:bleed",
+  "effect": "minecraft:night_vision",
   "providers": [
     {
-      "item": "soulsweapons:whirligig_sawblade"
+      "item": "soulsweapons:soul_robes_helmet"
     },
     {
-      "item": "soulsweapons:skofnung"
+      "item": "soulsweapons:soul_robes_chestplate"
     },
     {
-      "item": "soulsweapons:nightlords_sword"
+      "item": "soulsweapons:soul_robes_leggings"
     },
     {
-      "item": "soulsweapons:draugr_boss_spawn_egg"
+      "item": "soulsweapons:soul_robes_boots"
+    },
+    {
+      "item": "soulsweapons:excalibur"
     }
   ]
 }

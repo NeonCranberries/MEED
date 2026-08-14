@@ -1,10 +1,10 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="All Rights Reserved"
+license="MIT"
 
 [[mods]]
 modId="meed"
-version="8.0.6"
+version="8.0.7"
 displayName="Moderately Enough Effect Descriptions"
 logoFile="icon.png"
 credits="Neon_Cranberries"
@@ -12,7 +12,7 @@ displayURL="https://www.curseforge.com/minecraft/mc-mods/moderately-enough-effec
 authors="Neon_Cranberries"
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Adds over 500 effect descriptions from 100+ mods to Minecraft!
+Adds over 600 effect descriptions from 100+ mods to Minecraft!
 '''
 
 [[dependencies.meed]] #optional

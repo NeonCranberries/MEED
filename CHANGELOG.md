@@ -1,3 +1,10 @@
+# 8.0.7
+- Added descriptions and effect providers for the new Marium's Soulslike Weaponry effects
+- Added Marium's Soulslike Weaponry effect providers for vanilla effects
+- Updated 5 old Marium's Soulslike Weaponry effect descriptions to fit the new functionality
+- Edited a few descriptions (including making what 'freezing' was clearer)
+
+
 # 8.0.6
 - Added descriptions and effect providers for the new Legendary Monsters effects
 - Fixed all parsing errors when using MEED with EMiffect

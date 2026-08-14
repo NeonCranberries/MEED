@@ -13,19 +13,19 @@
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "soulsweapons:bleed",
+  "effect": "minecraft:regeneration",
   "providers": [
     {
-      "item": "soulsweapons:whirligig_sawblade"
+      "item": "soulsweapons:chaos_crown"
     },
     {
-      "item": "soulsweapons:skofnung"
+      "item": "soulsweapons:chaos_helmet"
     },
     {
-      "item": "soulsweapons:nightlords_sword"
+      "item": "soulsweapons:enhanced_withered_chest"
     },
     {
-      "item": "soulsweapons:draugr_boss_spawn_egg"
+      "item": "soulsweapons:warmth_entity_spawn_egg"
     }
   ]
 }

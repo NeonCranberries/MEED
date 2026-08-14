@@ -13,13 +13,26 @@
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "soulsweapons:disable_heal",
+  "effect": "minecraft:slowness",
   "providers": [
     {
-      "item": "soulsweapons:skofnung"
+      "item": "soulsweapons:nightlords_sword"
+    },
+    {
+      "item": "soulsweapons:draugr_boss_spawn_egg"
+    },
+    {
+      "item": "soulsweapons:returning_knight_spawn_egg"
     },
     {
       "item": "soulsweapons:moonknight_spawn_egg"
+    },
+    {
+      "item": "soulsweapons:night_prowler_spawn_egg"
+    },
+    {
+      "item": "soulsweapons:soulmass_spawn_egg"
     }
+
   ]
 }

@@ -26,6 +26,12 @@
     },
     {
       "item": "soulsweapons:soul_robes_boots"
+    },
+    {
+      "item": "soulsweapons:arkenplate"
+    },
+    {
+      "item": "soulsweapons:enhanced_arkenplate"
     }
   ]
 }

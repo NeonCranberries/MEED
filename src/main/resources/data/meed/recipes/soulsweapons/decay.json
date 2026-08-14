@@ -20,6 +20,21 @@
     },
     {
       "item": "soulsweapons:withered_dirt"
+    },
+    {
+      "item": "soulsweapons:nights_edge_item"
+    },
+    {
+      "item": "soulsweapons:nightlords_sword"
+    },
+    {
+      "item": "soulsweapons:accursed_lord_boss_spawn_egg"
+    },
+    {
+      "item": "soulsweapons:night_shade_spawn_egg"
+    },
+    {
+      "item": "soulsweapons:night_prowler_spawn_egg"
     }
   ]
 }

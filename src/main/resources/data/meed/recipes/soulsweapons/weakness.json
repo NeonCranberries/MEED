@@ -13,19 +13,23 @@
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "soulsweapons:bleed",
+  "effect": "minecraft:weakness",
   "providers": [
     {
-      "item": "soulsweapons:whirligig_sawblade"
-    },
-    {
-      "item": "soulsweapons:skofnung"
+      "item": "soulsweapons:draupnir_spear"
     },
     {
       "item": "soulsweapons:nightlords_sword"
     },
     {
       "item": "soulsweapons:draugr_boss_spawn_egg"
+    },
+    {
+      "item": "soulsweapons:moonknight_spawn_egg"
+    },
+    {
+      "item": "soulsweapons:soulmass_spawn_egg"
     }
+
   ]
 }

@@ -13,19 +13,19 @@
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "soulsweapons:bleed",
+  "effect": "minecraft:strength",
   "providers": [
     {
-      "item": "soulsweapons:whirligig_sawblade"
+      "item": "soulsweapons:guts_sword"
     },
     {
-      "item": "soulsweapons:skofnung"
+      "item": "soulsweapons:excalibur"
     },
     {
-      "item": "soulsweapons:nightlords_sword"
+      "item": "soulsweapons:bloodlust"
     },
     {
-      "item": "soulsweapons:draugr_boss_spawn_egg"
+      "item": "soulsweapons:warmth_entity_spawn_egg"
     }
   ]
 }
