@@ -13,22 +13,19 @@
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "soulsweapons:freezing",
+  "effect": "minecraft:regeneration",
   "providers": [
     {
-      "item": "soulsweapons:frostmourne"
+      "item": "soulsweapons:chaos_crown"
     },
     {
-      "item": "soulsweapons:leviathan_axe"
+      "item": "soulsweapons:chaos_helmet"
     },
     {
-      "item": "soulsweapons:rime_spectre_spawn_egg"
+      "item": "soulsweapons:enhanced_withered_chest"
     },
     {
-      "item": "soulsweapons:nightlords_sword"
-    },
-    {
-      "item": "soulsweapons:dark_moon_greatsword"
+      "item": "soulsweapons:warmth_entity_spawn_egg"
     }
   ]
 }

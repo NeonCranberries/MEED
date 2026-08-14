@@ -13,22 +13,13 @@
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "soulsweapons:freezing",
+  "effect": "soulsweapons:chungus_tonic_effect",
   "providers": [
     {
-      "item": "soulsweapons:frostmourne"
+      "item": "soulsweapons:chungus_staff"
     },
     {
-      "item": "soulsweapons:leviathan_axe"
-    },
-    {
-      "item": "soulsweapons:rime_spectre_spawn_egg"
-    },
-    {
-      "item": "soulsweapons:nightlords_sword"
-    },
-    {
-      "item": "soulsweapons:dark_moon_greatsword"
+      "item": "soulsweapons:withered_wabbajack"
     }
   ]
 }

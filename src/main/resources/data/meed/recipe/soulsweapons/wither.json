@@ -13,22 +13,23 @@
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "soulsweapons:freezing",
+  "effect": "minecraft:wither",
   "providers": [
     {
-      "item": "soulsweapons:frostmourne"
-    },
-    {
-      "item": "soulsweapons:leviathan_axe"
-    },
-    {
-      "item": "soulsweapons:rime_spectre_spawn_egg"
+      "item": "soulsweapons:chaos_robes"
     },
     {
       "item": "soulsweapons:nightlords_sword"
     },
     {
-      "item": "soulsweapons:dark_moon_greatsword"
+      "item": "soulsweapons:accursed_lord_boss_spawn_egg"
+    },
+    {
+      "item": "soulsweapons:night_shade_spawn_egg"
+    },
+    {
+      "item": "soulsweapons:night_prowler_spawn_egg"
     }
+
   ]
 }

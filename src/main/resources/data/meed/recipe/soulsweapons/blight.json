@@ -17,6 +17,9 @@
   "providers": [
     {
       "item": "soulsweapons:nights_edge_item"
+    },
+    {
+      "item": "soulsweapons:nightlords_sword"
     }
   ]
 }

@@ -13,22 +13,19 @@
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "soulsweapons:freezing",
+  "effect": "minecraft:strength",
   "providers": [
     {
-      "item": "soulsweapons:frostmourne"
+      "item": "soulsweapons:guts_sword"
     },
     {
-      "item": "soulsweapons:leviathan_axe"
+      "item": "soulsweapons:excalibur"
     },
     {
-      "item": "soulsweapons:rime_spectre_spawn_egg"
+      "item": "soulsweapons:bloodlust"
     },
     {
-      "item": "soulsweapons:nightlords_sword"
-    },
-    {
-      "item": "soulsweapons:dark_moon_greatsword"
+      "item": "soulsweapons:warmth_entity_spawn_egg"
     }
   ]
 }

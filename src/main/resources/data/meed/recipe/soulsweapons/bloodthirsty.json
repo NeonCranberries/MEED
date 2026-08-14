@@ -17,6 +17,9 @@
   "providers": [
     {
       "item": "soulsweapons:guts_sword"
+    },
+    {
+      "item": "soulsweapons:bloodlust"
     }
   ]
 }

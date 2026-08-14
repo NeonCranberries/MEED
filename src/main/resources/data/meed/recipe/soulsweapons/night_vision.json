@@ -13,22 +13,22 @@
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "soulsweapons:freezing",
+  "effect": "minecraft:night_vision",
   "providers": [
     {
-      "item": "soulsweapons:frostmourne"
+      "item": "soulsweapons:soul_robes_helmet"
     },
     {
-      "item": "soulsweapons:leviathan_axe"
+      "item": "soulsweapons:soul_robes_chestplate"
     },
     {
-      "item": "soulsweapons:rime_spectre_spawn_egg"
+      "item": "soulsweapons:soul_robes_leggings"
     },
     {
-      "item": "soulsweapons:nightlords_sword"
+      "item": "soulsweapons:soul_robes_boots"
     },
     {
-      "item": "soulsweapons:dark_moon_greatsword"
+      "item": "soulsweapons:excalibur"
     }
   ]
 }

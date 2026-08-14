@@ -13,22 +13,10 @@
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "soulsweapons:freezing",
+  "effect": "minecraft:poison",
   "providers": [
     {
-      "item": "soulsweapons:frostmourne"
-    },
-    {
-      "item": "soulsweapons:leviathan_axe"
-    },
-    {
-      "item": "soulsweapons:rime_spectre_spawn_egg"
-    },
-    {
       "item": "soulsweapons:nightlords_sword"
-    },
-    {
-      "item": "soulsweapons:dark_moon_greatsword"
     }
   ]
 }

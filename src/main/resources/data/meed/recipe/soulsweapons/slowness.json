@@ -13,22 +13,26 @@
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "soulsweapons:freezing",
+  "effect": "minecraft:slowness",
   "providers": [
-    {
-      "item": "soulsweapons:frostmourne"
-    },
-    {
-      "item": "soulsweapons:leviathan_axe"
-    },
-    {
-      "item": "soulsweapons:rime_spectre_spawn_egg"
-    },
     {
       "item": "soulsweapons:nightlords_sword"
     },
     {
-      "item": "soulsweapons:dark_moon_greatsword"
+      "item": "soulsweapons:draugr_boss_spawn_egg"
+    },
+    {
+      "item": "soulsweapons:returning_knight_spawn_egg"
+    },
+    {
+      "item": "soulsweapons:moonknight_spawn_egg"
+    },
+    {
+      "item": "soulsweapons:night_prowler_spawn_egg"
+    },
+    {
+      "item": "soulsweapons:soulmass_spawn_egg"
     }
+
   ]
 }

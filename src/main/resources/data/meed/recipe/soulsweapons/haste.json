@@ -13,25 +13,31 @@
     }
   ],
   "type": "jeed:effect_provider",
-  "effect": "soulsweapons:magic_resistance",
+  "effect": "minecraft:haste",
   "providers": [
     {
-      "item": "soulsweapons:soul_robes_helmet"
+      "item": "soulsweapons:supernova"
     },
     {
-      "item": "soulsweapons:soul_robes_chestplate"
+      "item": "soulsweapons:darkin_blade"
     },
     {
-      "item": "soulsweapons:soul_robes_leggings"
+      "item": "soulsweapons:rageblade"
     },
     {
-      "item": "soulsweapons:soul_robes_boots"
+      "item": "soulsweapons:guts_sword"
     },
     {
-      "item": "soulsweapons:arkenplate"
+      "item": "soulsweapons:nightfall"
     },
     {
-      "item": "soulsweapons:enhanced_arkenplate"
+      "item": "soulsweapons:featherlight"
+    },
+    {
+      "item": "soulsweapons:kirkhammer"
+    },
+    {
+      "item": "soulsweapons:chungus_staff"
     }
   ]
 }

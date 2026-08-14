@@ -1,0 +1,46 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "soulsweapons"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "emiffect"
+      }
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "minecraft:resistance",
+  "providers": [
+    {
+      "item": "soulsweapons:glaive_of_hodir"
+    },
+    {
+      "item": "soulsweapons:arkenplate"
+    },
+    {
+      "item": "soulsweapons:enhanced_arkenplate"
+    },
+    {
+      "item": "soulsweapons:warmth_entity_spawn_egg"
+    },
+    {
+      "item": "soulsweapons:nightfall"
+    },
+    {
+      "item": "soulsweapons:soul_ingot_helmet"
+    },
+    {
+      "item": "soulsweapons:soul_ingot_chestplate"
+    },
+    {
+      "item": "soulsweapons:soul_ingot_leggings"
+    },
+    {
+      "item": "soulsweapons:soul_ingot_boots"
+    }
+  ]
+}
