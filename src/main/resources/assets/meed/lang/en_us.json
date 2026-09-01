@@ -747,6 +747,8 @@
   "effect.soulsweapons.potency.description": "Increases attack damage of the held “Potency” weapon.",
   "effect.soulsweapons.soul_of_cinder.description": "Increases attack damage.",
   "effect.soulsweapons.echo.description": "Stores damage taken and inflicts it back a second time upon removal of the effect (damage is not applied if removed via commands or other abilities like via the Skofnung Stone).",
-  "effect.soulsweapons.exalted.description": "Increases attack speed and damage."
+  "effect.soulsweapons.exalted.description": "Increases attack speed and damage.",
+
+  "effect.galosphere.halite_curse.description": "Turns pets and golems into pink salt statues and prevents the user from moving."
 
 }
