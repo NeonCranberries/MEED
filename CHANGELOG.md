@@ -1,3 +1,6 @@
+# 8.0.8
+- Added a description and effect provider for the new Galosphere effect Halite Curse
+
 # 8.0.7
 - Added descriptions and effect providers for the new Marium's Soulslike Weaponry effects
 - Added Marium's Soulslike Weaponry effect providers for vanilla effects
