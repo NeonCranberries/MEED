@@ -1,3 +1,6 @@
+# 8.1.0
+- Added compatibility for Brazilian Expansion
+
 # 8.0.8
 - Added a description and effect provider for the new Galosphere effect Halite Curse
 

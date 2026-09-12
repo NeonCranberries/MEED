@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "brazilian_expansion"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "emiffect"
+      }
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "minecraft:poison",
+  "providers": [
+    {
+      "item": "brazilian_expansion:jararaca_spawn_egg"
+    },
+    {
+      "item": "brazilian_expansion:arraia_kathua"
+    },
+    {
+      "item": "brazilian_expansion:arraia_motoro_bucket"
+    },
+    {
+      "item": "brazilian_expansion:arraiamotoro_spawn_egg"
+    }
+  ]
+}
