@@ -749,6 +749,14 @@
   "effect.soulsweapons.echo.description": "Stores damage taken and inflicts it back a second time upon removal of the effect (damage is not applied if removed via commands or other abilities like via the Skofnung Stone).",
   "effect.soulsweapons.exalted.description": "Increases attack speed and damage.",
 
-  "effect.galosphere.halite_curse.description": "Turns pets and golems into pink salt statues and prevents the user from moving."
+  "effect.galosphere.halite_curse.description": "Turns pets and golems into pink salt statues and prevents the user from moving.",
+
+  "effect.brazilian_expansion.botos_charm.description": "Increases speed while in water.",
+  "effect.brazilian_expansion.corruption.description": "Inflicts damage over time and spreads to nearby entities.",
+  "effect.brazilian_expansion.toxic_conviction.description": "Kills the user when the effect runs out. Decreases attack damage, movement speed, and horse jump strength. Can only be removed with antivenom.",
+  "effect.brazilian_expansion.electrified.description": "Causes the user to shake and slightly randomly move, making it hard to intentionally move.",
+  "effect.brazilian_expansion.refreshing.description": "Increases movement and attack speed.",
+  "effect.brazilian_expansion.blessing_of_the_rivers.description": "Increases fishing luck.",
+  "effect.brazilian_expansion.bleeding.description": "Inflicts damage over time."
 
 }

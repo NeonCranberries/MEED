@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brazilian_expansion"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "emiffect"
+      }
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "brazilian_expansion:corruption",
+  "providers": [
+    {
+      "item": "brazilian_expansion:corrupted_spikes"
+    },
+    {
+      "item": "brazilian_expansion:piranha_corrupted_bucket"
+    },
+    {
+      "item": "brazilian_expansion:piranha_corrupted_spawn_egg"
+    },
+    {
+      "item": "brazilian_expansion:mapinguari_spawn_egg"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "brazilian_expansion"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "emiffect"
+      }
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "brazilian_expansion:botos_charm",
+  "providers": [
+    {
+      "item": "brazilian_expansion:boto_spawn_egg"
+    },
+    {
+      "item": "brazilian_expansion:mysterious_fedora"
+    }
+  ]
+}
