@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "spider_overhaul"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "emiffect"
+      }
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "minecraft:poison",
+  "providers": [
+    {
+      "item": "spider_overhaul:jungle_spider_spawn_egg"
+    }
+  ]
+}
