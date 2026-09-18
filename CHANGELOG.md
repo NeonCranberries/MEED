@@ -1,3 +1,7 @@
+# 8.2.0
+- Added compatibility for Spider Overhaul
+- Various edits
+
 # 8.1.0
 - Added compatibility for Brazilian Expansion
 

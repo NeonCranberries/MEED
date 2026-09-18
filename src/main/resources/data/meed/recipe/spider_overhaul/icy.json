@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "spider_overhaul"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "emiffect"
+      }
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "spider_overhaul:icy",
+  "providers": [
+    {
+      "item": "spider_overhaul:ice_spider_spawn_egg"
+    },
+    {
+      "item": "spider_overhaul:ice_snowball"
+    }
+  ]
+}
