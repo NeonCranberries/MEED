@@ -3,7 +3,7 @@ package com.cranberry.meed;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-// prefixes every line with [MEED] instead of the raw class/method/line stamp
+// prefixes every line with [MEED]
 public class MeedLogger {
 
     private static final Logger LOGGER = LogManager.getLogger("MEED");

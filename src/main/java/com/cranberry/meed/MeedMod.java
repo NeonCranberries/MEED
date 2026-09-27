@@ -8,7 +8,6 @@ public class MeedMod {
     public static final String MODID = "meed";
 
     public MeedMod() {
-        // nothing needed here anymore — client commands self-register
-        // via @Mod.EventBusSubscriber
+
     }
 }
