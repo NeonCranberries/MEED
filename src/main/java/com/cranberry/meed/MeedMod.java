@@ -13,7 +13,5 @@ public class MeedMod {
     public MeedMod(IEventBus modEventBus, ModContainer container) {
 
         ModConditions.CONDITION_CODECS.register(modEventBus);
-
-        // client command registers itself via @EventBusSubscriber
     }
 }

@@ -1,3 +1,7 @@
+# 8.3.0
+- Added compatibility for Lycanites Mobs
+- Various edits
+
 # 8.2.0
 - Added compatibility for Spider Overhaul
 - Various edits
