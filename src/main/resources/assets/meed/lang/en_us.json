@@ -789,5 +789,10 @@
   "effect.lycanitesmobs.repulsion.description": "Pushes away enemies and prevents being picked up or latched onto.",
   "effect.lycanitesmobs.smited.description": "Causes user to burn in sunlight.",
   "effect.lycanitesmobs.smouldering.description": "Inflicts burning, bypassing fire resistance. Staying in water suppresses this, but does not remove it.",
-  "effect.lycanitesmobs.weight.description": "Increases falling speed and prevents jumping or swimming/flying upwards."
+  "effect.lycanitesmobs.weight.description": "Increases falling speed and prevents jumping or swimming/flying upwards.",
+
+  "effect.call_of_yucutan.ah_puch_bless.description": "Increases armor points and knockback resistance.",
+  "effect.call_of_yucutan.kukulkan_bless.description": "Increases movement speed and attack speed.",
+  "effect.call_of_yucutan.melting.description": "Inflicts damage on golden creatures."
+
 }

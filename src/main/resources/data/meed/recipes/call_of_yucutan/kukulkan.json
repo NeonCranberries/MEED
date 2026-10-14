@@ -1,0 +1,22 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "call_of_yucutan"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "emiffect"
+      }
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "call_of_yucutan:kukulkan_bless",
+  "providers": [
+    {
+      "item": "call_of_yucutan:kukulkan_idol"
+    }
+  ]
+}

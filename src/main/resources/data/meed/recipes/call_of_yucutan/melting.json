@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "call_of_yucutan"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "emiffect"
+      }
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "call_of_yucutan:melting",
+  "providers": [
+    {
+      "item": "call_of_yucutan:wand_of_radiance"
+    },
+    {
+      "item": "call_of_yucutan:solar_projector"
+    }
+  ]
+}
