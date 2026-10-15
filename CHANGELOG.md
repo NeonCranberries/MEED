@@ -1,3 +1,6 @@
+# 8.4.0
+- Added compatibility for Call of Yucatan
+
 # 8.3.0
 - Added compatibility for Lycanites Mobs
 - Various edits
