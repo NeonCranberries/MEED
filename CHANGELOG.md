@@ -1,3 +1,6 @@
+# 8.5.0
+- Added compatibility for Xaero's World Map
+
 # 8.4.0
 - Added compatibility for Call of Yucatan
 
