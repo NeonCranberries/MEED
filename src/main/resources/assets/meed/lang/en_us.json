@@ -793,6 +793,11 @@
 
   "effect.call_of_yucutan.ah_puch_bless.description": "Increases armor points and knockback resistance.",
   "effect.call_of_yucutan.kukulkan_bless.description": "Increases movement speed and attack speed.",
-  "effect.call_of_yucutan.melting.description": "Inflicts damage on golden creatures."
+  "effect.call_of_yucutan.melting.description": "Inflicts damage on golden creatures.",
+
+  "effect.xaeroworldmap.no_world_map.description": "Disables and hides Xaero's World Map.",
+  "effect.xaeroworldmap.no_world_map_harmful.description": "Disables and hides Xaero's World Map.",
+  "effect.xaeroworldmap.no_cave_maps.description": "Disables and hides Xaero's World Map's Cave Map.",
+  "effect.xaeroworldmap.no_cave_maps_harmful.description": "Disables and hides Xaero's World Map's Cave Map."
 
 }
