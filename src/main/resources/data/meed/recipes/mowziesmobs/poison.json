@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mowziesmobs"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "emiffect"
+      }
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "minecraft:poison",
+  "providers": [
+    {
+      "item": "mowziesmobs:naga_spawn_egg"
+    },
+    {
+      "item": "mowziesmobs:naga_fang_dagger"
+    },
+    {
+      "item": "mowziesmobs:dart"
+    }
+  ]
+}

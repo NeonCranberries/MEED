@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mowziesmobs"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "emiffect"
+      }
+    }
+  ],
+  "type": "jeed:effect_provider",
+  "effect": "mowziesmobs:suns_blessing",
+  "providers": [
+    {
+      "item": "mowziesmobs:umvuthi_spawn_egg"
+    },
+    {
+      "item": "mowziesmobs:grant_suns_blessing"
+    }
+  ]
+}

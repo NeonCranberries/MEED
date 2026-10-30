@@ -1,3 +1,6 @@
+# 8.6.0
+- Added compatibility for Mowzie's Mobs
+
 # 8.5.0
 - Added compatibility for Xaero's World Map
 
